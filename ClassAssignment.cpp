@@ -3,26 +3,41 @@ using namespace std;
 
 class Shape{
     public:
-        string Color;
+        string color;
+        int GetArea() {
+        
+        }
+};
 
-        int GetArea(int x, int y){
+class Rectangle: public Shape {
+    public:
+        int height;
+        int width;
+        int getArea() {
+            int x = height;
+            int y = width;
             return x * y;
         }
 };
 
-class Rectangle: public Shape{
+class Triangle: public Shape {
     public:
-        int Height, Width;
+        int height;
+        int base;
+        int getArea() {
+            int x = height;
+            int y = base;
+            return (x * y ) / 2;
+        }
 };
 
-class Triangle: public Shape{
+class Circle: public Shape {
     public:
-        int Height, Base;
-};
-
-class Circle: public Shape{
-    public:
-        int Radius;
+        const double PI = 3.14;
+        int getArea() {
+            int r = radius;
+            return r * r * 3.14;
+        }
 };
 
 int main(){
