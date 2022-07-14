@@ -5,20 +5,20 @@ class Dog{
     public:
         string Breed, Color, Height, Weight;
 
-        bool Shake(){
-            return true;
+        void Shake(){
+            cout << "The " + Breed + " does a shake \n";
         }
 
-        bool Sit(){
-            return true;
+        void Sit(){
+            cout << "The " + Breed + " sits \n" ;
         }
 
         bool LayDown(){
-            return true;
+            cout << "The " + Breed + " lies down \n";
         }
 
         bool IsGoodBoy(){
-            return true;
+            cout << "The " + Breed + " is a good boy \n";
         }
 };
 
