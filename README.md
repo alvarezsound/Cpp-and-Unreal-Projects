@@ -20,41 +20,41 @@ The next assigned task was to add moving platforms using a level sequencer to cr
 Gif of player jumping on moving platforms
 
 ### Story 3: 
-Added a jump boost powerup blueprint that allows the player to reach places they can't otherwise and coin and gem pickups. The gems are fewer in number and harder to find.
+Next, I added a jump boost powerup blueprint that allows the player to reach places they can't otherwise and coin and gem pickups. The gems are fewer in number and harder to find.
 
 Gif of player using jump boost and collecting coins
 
 ### Story 4: 
-Created a hidden key blueprint that will allow the character to open the door to the final section of the level.
+The next assigned story was to create a hidden key blueprint that would allow the character to open the door to the final section of the level.
 
-Picture of key
-Picture of Door but locked
+![HoC](/Images/HoC_Key.png)
+![HoC](/Images/Hoc_Door.png)
 
 ### Story 5: 
-Created a HUD widget that keeps track of the amount of coins/gems collected and whether or not the player has the key or jump boost pickups.
+The next story was to create a HUD widget that keeps track of the amount of coins/gems collected and whether or not the player has the key or jump boost pickups.
 
-Picture of HUD
+![HoC](/Images/HoC_HUD.png)
 
 ### Story 6: 
-Added functionality to the HUD widget that tells the player the total amount of coins/gems in the level and a HUD that alerts the player that all gems and coins have been collected.
+I then added functionality to the HUD widget that tells the player the total amount of coins/gems in the level and a HUD that alerts the player that all gems and coins have been collected.
 
-Picture of blueprints for HUD and 
-coin/gem counter functions
-Picture of HUD/alert
+![HoC](/Images/HoC_HUDBP.png)
+![HoC](/Images/HoC_CoinCounter.png)
+![HoC](/Images/HoC_Alert.png)
 
 ### Story 7: 
-Added a finish line area in the final section of the level and a completion HUD that informs the player of the total amount of coins and gems they collected and their final completion time.
+To complete the game loop, I added a finish line area in the final section of the level and a completion HUD that informs the player of the total amount of coins and gems they collected and their final completion time. The HUD is trigged and the game ends when the player character collides with the end goal object (crystals). I added a replay button to restart the game.
 
-Picture of completion HUD
+![HoC](/Images/HoC_Victory.png)
 
 ### Story 8: 
-Added a camera blend event for when the player picks up the key to point them to the door that it is used for.
+As an extra feature, I created a camera blend event for when the player picks up the key to point them to the door that it is used for. This was done by creating a new actor with a camera attached that I placed on top of the key. The camera blend is trigged when the player collides with the actor and it is finally destroyed once the entire code has run through. That way the player cannot trigger it again since the key can only be obtained once.
 
-picture of blueprint for camera BP
+![HoC](/Images/HoC_Camera.png)
 gif of camera blend event
 
 ### Story 9: 
-Added a gate that blocks the players way and a button that opens it. The gate will only stay open while the button is pressed. Added cube objects with physics that the player can move around and place on the button to move forward.
+As a final challenge, I created a gate that blocks the players way and as well as a button that opens it. The gate will only stay open while the button is pressed. Finally, I added cube objects with physics that the player can find and then push around and place on the button to move forward.
 
 picture of blueprint for button/gate
 gif of gate and button
