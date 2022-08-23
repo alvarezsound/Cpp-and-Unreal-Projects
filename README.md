@@ -57,7 +57,7 @@ gif of camera blend event
 As a final challenge, I created a gate that blocks the players way and as well as a button that opens it. The gate will only stay open while the button is pressed. Finally, I added cube objects with physics that the player can find and then push around and place on the button to move forward.
 
 ![HoC](/Images/HoC_GateBP.png)
-![HoC](/Images/HoC_GateButtonBP.png.png)
+![HoC](/Images/HoC_GateButtonBP.png)
 
 
 ## Three Keys
