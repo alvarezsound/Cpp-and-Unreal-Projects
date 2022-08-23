@@ -39,7 +39,7 @@ The next story was to create a HUD widget that keeps track of the amount of coin
 I then added functionality to the HUD widget that tells the player the total amount of coins/gems in the level and a HUD that alerts the player that all gems and coins have been collected.
 
 ![HoC](/Images/HoC_HUDBP.png)
-![HoC](/Images/HoC_CoinCounter.png)
+![HoC](/Images/HoC_CoinCounterBP.png)
 ![HoC](/Images/HoC_Alert.png)
 
 ### Story 7: 
@@ -50,14 +50,14 @@ To complete the game loop, I added a finish line area in the final section of th
 ### Story 8: 
 As an extra feature, I created a camera blend event for when the player picks up the key to point them to the door that it is used for. This was done by creating a new actor with a camera attached that I placed on top of the key. The camera blend is trigged when the player collides with the actor and it is finally destroyed once the entire code has run through. That way the player cannot trigger it again since the key can only be obtained once. The players movement is also locked during the animation.
 
-![HoC](/Images/HoC_Camera.png)
+![HoC](/Images/HoC_CameraBP.png)
 gif of camera blend event
 
 ### Story 9: 
 As a final challenge, I created a gate that blocks the players way and as well as a button that opens it. The gate will only stay open while the button is pressed. Finally, I added cube objects with physics that the player can find and then push around and place on the button to move forward.
 
-![HoC](/Images/HoC_Gate.png)
-![HoC](/Images/HoC_GateButton.png)
+![HoC](/Images/HoC_GateBP.png)
+![HoC](/Images/HoC_GateButtonBP.png.png)
 
 
 ## Three Keys
