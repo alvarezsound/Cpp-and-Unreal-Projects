@@ -20,7 +20,7 @@ The next assigned task was to add moving platforms using a level sequencer to cr
 Gif of player jumping on moving platforms
 
 ### Story 3: 
-Next, I added a jump boost powerup blueprint that allows the player to reach places they can't otherwise and coin and gem pickups. The gems are fewer in number and harder to find.
+Next, I added a jump boost powerup blueprint that allows the player to reach places they can't otherwise and coin and gem pickups. The coins and gems are essentially the same thing but with different skins and the gems are fewer in number and harder to find.
 
 Gif of player using jump boost and collecting coins
 
@@ -48,7 +48,7 @@ To complete the game loop, I added a finish line area in the final section of th
 ![HoC](/Images/HoC_Victory.png)
 
 ### Story 8: 
-As an extra feature, I created a camera blend event for when the player picks up the key to point them to the door that it is used for. This was done by creating a new actor with a camera attached that I placed on top of the key. The camera blend is trigged when the player collides with the actor and it is finally destroyed once the entire code has run through. That way the player cannot trigger it again since the key can only be obtained once.
+As an extra feature, I created a camera blend event for when the player picks up the key to point them to the door that it is used for. This was done by creating a new actor with a camera attached that I placed on top of the key. The camera blend is trigged when the player collides with the actor and it is finally destroyed once the entire code has run through. That way the player cannot trigger it again since the key can only be obtained once. The players movement is also locked during the animation.
 
 ![HoC](/Images/HoC_Camera.png)
 gif of camera blend event
@@ -56,8 +56,8 @@ gif of camera blend event
 ### Story 9: 
 As a final challenge, I created a gate that blocks the players way and as well as a button that opens it. The gate will only stay open while the button is pressed. Finally, I added cube objects with physics that the player can find and then push around and place on the button to move forward.
 
-picture of blueprint for button/gate
-gif of gate and button
+![HoC](/Images/HoC_Gate.png)
+![HoC](/Images/HoC_GateButton.png)
 
 
 ## Three Keys
