@@ -25,7 +25,7 @@ Next, I added a jump boost powerup blueprint allowing players to reach places th
 Gif of player using jump boost and collecting coins
 
 ### Story 4: 
-The next assigned story was to create a hidden key blueprint allowing the character to open the door to the final section of the level.
+The next assigned story was to create a hidden key blueprint allowing the character to open the door to the final section of the level. If there player tries to open the door without the key, an alert HUD will pop up telling them that a key is needed.
 
 ![HoC](/Images/HoC_Key.png)
 ![HoC](/Images/Hoc_Door.png)
