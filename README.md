@@ -38,7 +38,9 @@ The next story was to create a HUD widget that keeps track of the number of coin
 ### Story 6: 
 Next, I added functionality to the HUD widget to tell the player the total amount of coins and gems in the level. I also added a HUD that alerts the player that all gems and coins have been collected.
 
+HUD widget BP
 ![HoC](/Images/HoC_HUDBP.png)
+Function for getting the total amount of coins in the map within the main game BP
 ![HoC](/Images/HoC_CoinCounterBP.png)
 ![HoC](/Images/HoC_Alert.png)
 
@@ -50,13 +52,16 @@ To complete the game loop, I added a finish line area in the final section of th
 ### Story 8: 
 As an extra feature, I created a camera blend event for whenever a key is picked up, panning the camera to the correct door and pointing the player in the right direction. I did this by creating a new actor with a camera component placed on top of the key. The camera blend is triggered when the player reaches the key, colliding with the actor, and is destroyed once the entire code has run through. This way, it cannot be triggered again, as the key can only be obtained once. The player's movement is also locked during the animation.
 
+Actor BP with camera component
 ![HoC](/Images/HoC_CameraBP.png)
 gif of camera blend event
 
 ### Story 9: 
 As a final challenge, I created a gate that blocks the player's way, as well as a button to open the gate. The gate remains open only when the button is pressed, so I implemented cube objects with physics for the player to find, push, and place on top of the button in order to move past the gate.
 
+Door BP
 ![HoC](/Images/HoC_GateBP.png)
+Button BP
 ![HoC](/Images/HoC_GateButtonBP.png)
 
 
