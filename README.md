@@ -1,4 +1,4 @@
-# C++-and-Unreal-Projects
+# C++ and Unreal Projects
 This is the repository for all of my C++ and Unreal Engine course projects! Click the links below to view the files.
 ## Projects:
 - <a href="" target="_blank">Hour of Code</a>
