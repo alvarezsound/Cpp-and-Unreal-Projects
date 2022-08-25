@@ -1,4 +1,4 @@
-# C++ and Unreal Projects
+# Cpp and Unreal Projects
 This is the repository for all of my C++ and Unreal Engine course projects! Click the links below to view the files.
 ## Projects:
 - <a href="" target="_blank">Hour of Code</a>
@@ -78,4 +78,4 @@ The game begins with the player placed inside a room with three AI enemies on pa
 ![ThreeKeys](/Images/TK3.png)
 ![ThreeKeys](/Images/TK5.png)
 
-Back to [top](#C++-and-Unreal-Projects)
+Back to [top](#Cpp-and-Unreal-Projects)
