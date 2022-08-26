@@ -63,6 +63,7 @@ Door BP
 ![HoC](/Images/HoC_GateBP.png)
 Button BP
 ![HoC](/Images/HoC_GateButtonBP.png)
+![HoC](/Images/HoC_GateButton.gif)
 
 
 ## Three Keys
