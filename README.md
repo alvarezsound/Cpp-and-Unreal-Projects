@@ -12,17 +12,17 @@ After completing the C++ and Unreal Engine course, I participated in a two-week 
 ### Story 1: 
 My first assigned task was to 1. add collision to various platforms and 2. design a way for the player to travel from the first island to the second island using those platforms. I did this by adding a simple collision to the static mesh actors.
 
-Gif of player jumping on platforms
+![HoC](/Images/HoC_Platforms.gif)
 
 ### Story 2: 
 The next assigned task was to add moving platforms using a level sequencer, creating a way for the player to travel from the second island to the third island in a more challenging and dynamic way.
 
-Gif of player jumping on moving platforms
+![HoC](/Images/HoC_Sequencer.gif)
 
 ### Story 3: 
 Next, I added a jump boost powerup blueprint allowing players to reach places they otherwise couldn’t. I also added coin and gem pickups, which operate essentially the same way but with different skins. The gems are fewer in number and harder to find.
 
-Gif of player using jump boost and collecting coins
+![HoC](/Images/HoC_JumpBoost.gif)
 
 ### Story 4: 
 The next assigned story was to create a hidden key blueprint allowing the character to open the door to the final section of the level. If there player tries to open the door without the key, an alert HUD will pop up telling them that a key is needed.
@@ -54,7 +54,7 @@ As an extra feature, I created a camera blend event for whenever a key is picked
 
 Actor BP with camera component
 ![HoC](/Images/HoC_CameraBP.png)
-gif of camera blend event
+![HoC](/Images/HoC_CameraBlend.gif)
 
 ### Story 9: 
 As a final challenge, I created a gate that blocks the player's way, as well as a button to open the gate. The gate remains open only when the button is pressed, so I implemented cube objects with physics for the player to find, push, and place on top of the button in order to move past the gate.
